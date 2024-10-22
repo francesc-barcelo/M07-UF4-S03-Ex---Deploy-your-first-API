@@ -4,7 +4,8 @@
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec tsx --esm src/server.ts",
+    "dev": "nodemon --exec tsx src/server.ts",
+    "dev_desr": "nodemon --exec tsx --esm src/server.ts",
     "build": "tsc && node copyEjs.js",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
